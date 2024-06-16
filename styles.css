@@ -5,6 +5,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   line-height: 1.5;
@@ -38,4 +39,24 @@ h6 {
 html {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  border: 1px solid red;
+  height: 100vh;
+}
+
+main {
+  border: 2px dashed green;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  width: 30%;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid purple;
 }

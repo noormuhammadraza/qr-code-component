@@ -61,11 +61,11 @@ main {
   border: none;
   text-align: center;
   box-shadow: 0px 6px 20px 4px hsl(218, 39%, 81%);
-} /* TODO: set component width to be responsive */
+}
 
 @media screen and (min-width: 375px) {
   .component {
-    max-width: 80%;
+    width: 80%;
   }
 }
 
@@ -103,12 +103,10 @@ h1 {
   font-size: 1.3rem;
   margin-bottom: 0.5em;
   color: hsl(218, 44%, 22%);
-  /* padding: 0 0.1em; */
 }
 
 p {
   font-size: 0.9rem;
   color: hsl(220, 15%, 55%);
   padding: 0 1em 1em 1em;
-  /* margin-bottom: 0.15em; */
 }

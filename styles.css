@@ -59,4 +59,4 @@ main {
   width: 30%;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid purple;
-}
+} /* TODO: set component width to be responsive */

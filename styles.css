@@ -54,7 +54,7 @@ main {
 }
 
 .component {
-  width: 20%;
+  max-width: 90%;
   background-color: hsl(0, 0%, 100%);
   padding: 1em;
   border-radius: 20px;
@@ -62,6 +62,36 @@ main {
   text-align: center;
   box-shadow: 0px 6px 20px 4px hsl(218, 39%, 81%);
 } /* TODO: set component width to be responsive */
+
+@media screen and (min-width: 375px) {
+  .component {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .component {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .component {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .component {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .component {
+    width: 20%;
+  }
+}
 
 .qrcode {
   border-radius: 10px;
